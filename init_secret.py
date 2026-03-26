@@ -8,7 +8,7 @@ if not FERNET_KEY:
     exit("Erreur: FERNET_KEY non définie dans .env")
 
 # --- METS TA NOUVELLE CLÉ SECRÈTE TWITCH ICI ---
-TWITCH_TOTP_SECRET = "QZQ5XTICUTTVSJWUZ4N77GRGMI37M3IOQMAT2STKCGMD7TYCP5JA"
+TWITCH_TOTP_SECRET = ""
 
 if "TA_NOUVELLE_CLÉ_SECRÈTE_TWITCH" in TWITCH_TOTP_SECRET:
     exit("Attention: Remplace par ta vraie clé secrète TOTP.")
